@@ -26,7 +26,7 @@ struct Args {
     #[arg(
         short,
         long,
-        default_value = "abc",
+        default_value = "",
         help = "Limit characters to the specified ones"
     )]
     custom: String,
